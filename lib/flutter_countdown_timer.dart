@@ -20,7 +20,7 @@ class CountdownTimer extends StatefulWidget {
   final TextStyle? textStyle;
 
   ///Event called after the countdown ends
-  final VoidCallback? onEnd;
+  final Future<dynamic> onEnd;
 
   ///The end time of the countdown.
   final int? endTime;
